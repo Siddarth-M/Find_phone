@@ -22,7 +22,7 @@ To configure training, I first define a label map that identifies the phone with
 
 After training is done, the inference graph is then exported. This inference graph is now used to test the object detector.
 
-![Image description](training loss.png)
+![Image description](training_loss.PNG)
 
 Hence, the phone detector is now complete. 
 
