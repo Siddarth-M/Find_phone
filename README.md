@@ -22,6 +22,8 @@ To configure training, I first define a label map that identifies the phone with
 
 After training is done, the inference graph is then exported. This inference graph is now used to test the object detector.
 
+![Image description](training loss.png)
+
 Hence, the phone detector is now complete. 
 
 Then I go on to train our model using a pre-trained FasterRCNN with Inception v2. I use transfer learning in this case because the dataset given consists of only 129 images which has been split in 80:20 - training:validation - 103:26 for our purposes which will be insufficient to generate a satisfactory model.
